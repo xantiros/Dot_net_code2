@@ -7,8 +7,9 @@ namespace myapp
     {
         static void Main(string[] args)
         {
-            Race race = new Race();
-            race.Begin();
+            Console.WriteLine("Hello World!");
+            Order order1 = new Order(1,101);
+            User czlek = new User("cz@aabc.pl", "abc");
             
         }
     }
