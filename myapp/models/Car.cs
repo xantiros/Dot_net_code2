@@ -35,6 +35,11 @@ namespace myapp.models
             {
                 sportCar, truck
             };
+
+            foreach(Car car in cars)
+            {
+                car.Start();
+            }
         }
     }
 }
