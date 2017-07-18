@@ -7,8 +7,8 @@ namespace myapp
     {
         static void Main(string[] args)
         {
-            Race race = new Race();
-            race.Begin();
+            Race race2 = new Race();
+            race2.Begin();
             
         }
     }
