@@ -6,6 +6,7 @@ namespace myapp.models
     public class Car
     {
         public double Speed {get; protected set;} = 100;
+        public double Acceleration{get; protected set;} = 10;
         public void Start()
         {
             Console.WriteLine("Turning on the engine...");
@@ -15,6 +16,12 @@ namespace myapp.models
         {
             Console.WriteLine("Stoping the car...");
         } 
+        public void Accelerate()
+        {
+            Console.WriteLine("Accelerating...");
+            Speed += Acceleration;
+            Console.WriteLine($"Running at: {Speed} km/h");
+        }
     }
 
     public class Truck : Car
@@ -39,6 +46,7 @@ namespace myapp.models
             foreach(Car car in cars)
             {
                 car.Start();
+                car.Accelerate();
             }
         }
     }
