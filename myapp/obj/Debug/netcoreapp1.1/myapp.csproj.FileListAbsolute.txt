@@ -1,0 +1,8 @@
+C:\Users\bklima\Documents\Dot_net_code\myapp\bin\Debug\netcoreapp1.1\myapp.deps.json
+C:\Users\bklima\Documents\Dot_net_code\myapp\bin\Debug\netcoreapp1.1\myapp.runtimeconfig.json
+C:\Users\bklima\Documents\Dot_net_code\myapp\bin\Debug\netcoreapp1.1\myapp.runtimeconfig.dev.json
+C:\Users\bklima\Documents\Dot_net_code\myapp\bin\Debug\netcoreapp1.1\myapp.dll
+C:\Users\bklima\Documents\Dot_net_code\myapp\bin\Debug\netcoreapp1.1\myapp.pdb
+C:\Users\bklima\Documents\Dot_net_code\myapp\obj\Debug\netcoreapp1.1\myapp.AssemblyInfo.cs
+C:\Users\bklima\Documents\Dot_net_code\myapp\obj\Debug\netcoreapp1.1\myapp.dll
+C:\Users\bklima\Documents\Dot_net_code\myapp\obj\Debug\netcoreapp1.1\myapp.pdb
