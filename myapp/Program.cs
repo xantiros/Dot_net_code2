@@ -8,8 +8,9 @@ namespace myapp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
-            User czlek = new User("cz@.pl", "abc");
+            Order order1 = new Order(1,101);
+            User czlek = new User("cz@aabc.pl", "abc");
+            
         }
     }
 }
