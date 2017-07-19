@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace myapp.models
 {
-    public class Car
+    public abstract class Car
     {
         public double Speed {get; protected set;} = 100;
         public double Acceleration{get; protected set;} = 10;
@@ -29,8 +29,7 @@ namespace myapp.models
         public override void Accelerate()
         {
             Console.WriteLine("Accelerating a truck...");
-            Speed += Acceleration;
-            Console.WriteLine($"Running the truck at: {Speed} km/h");
+            base.Accelerate();
         }
     }
     public class SportCar : Car
@@ -38,8 +37,7 @@ namespace myapp.models
         public override void Accelerate()
         {
             Console.WriteLine("Accelerating a Sport Car...");
-            Speed += Acceleration;
-            Console.WriteLine($"Running the sport car at: {Speed} km/h");
+            base.Accelerate();
         }
     }
     public class Race
