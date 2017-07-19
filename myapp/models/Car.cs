@@ -16,7 +16,7 @@ namespace myapp.models
         {
             Console.WriteLine("Stoping the car...");
         } 
-        public void Accelerate()
+        public virtual void Accelerate()
         {
             Console.WriteLine("Accelerating...");
             Speed += Acceleration;
@@ -26,10 +26,21 @@ namespace myapp.models
 
     public class Truck : Car
     {
+        public override void Accelerate()
+        {
+            Console.WriteLine("Accelerating a truck...");
+            Speed += Acceleration;
+            Console.WriteLine($"Running the truck at: {Speed} km/h");
+        }
     }
     public class SportCar : Car
     {
-
+        public override void Accelerate()
+        {
+            Console.WriteLine("Accelerating a Sport Car...");
+            Speed += Acceleration;
+            Console.WriteLine($"Running the sport car at: {Speed} km/h");
+        }
     }
     public class Race
     {
