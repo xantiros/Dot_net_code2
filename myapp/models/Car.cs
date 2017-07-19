@@ -22,6 +22,7 @@ namespace myapp.models
             Speed += Acceleration;
             Console.WriteLine($"Running at: {Speed} km/h");
         }
+        public abstract void Boost();
     }
 
     public class Truck : Car
@@ -31,6 +32,13 @@ namespace myapp.models
             Console.WriteLine("Accelerating a truck...");
             base.Accelerate();
         }
+
+        public override void Boost()
+        {
+            Console.WriteLine("Boosting a turck...");
+            Speed += 100;
+            Console.WriteLine($"Running at: {Speed} km/h");
+        }
     }
     public class SportCar : Car
     {
@@ -38,6 +46,13 @@ namespace myapp.models
         {
             Console.WriteLine("Accelerating a Sport Car...");
             base.Accelerate();
+        }
+
+        public override void Boost()
+        {
+            Console.WriteLine("Boosting a truck...");
+            Speed += 33;
+            Console.WriteLine($"Running at: {Speed} km/h");
         }
     }
     public class Race
@@ -56,6 +71,7 @@ namespace myapp.models
             {
                 car.Start();
                 car.Accelerate();
+                car.Boost();
             }
         }
     }

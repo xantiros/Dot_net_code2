@@ -4,3 +4,6 @@ myapp.pdb
 myapp/bin/Debug/netcoreapp1.1/myapp.dll
 *.pdb
 *.pdb
+myapp/bin/Debug/netcoreapp1.1/myapp.dll
+myapp/obj/Debug/netcoreapp1.1/myapp.dll
+myapp/obj/Debug/netcoreapp1.1/myapp.pdb
