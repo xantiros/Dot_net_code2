@@ -9,8 +9,8 @@ namespace myapp
         {
             User user = new User("email@gmail.com", "secret");
             user.Orders.ToString();
-            Race race1 = new Race();
-            race1.Begin();
+            Race race2 = new Race();
+            race2.Begin();
             
         }
     }
