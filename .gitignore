@@ -1,0 +1,6 @@
+CoreCompileInputs.cache
+myapp.dll
+myapp.pdb
+myapp/bin/Debug/netcoreapp1.1/myapp.dll
+*.pdb
+*.pdb
