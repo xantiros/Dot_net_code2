@@ -54,13 +54,18 @@ namespace myapp.models
             Speed += 33;
             Console.WriteLine($"Running at: {Speed} km/h");
         }
+        public void DisplayInfor()
+        {
+            Console.WriteLine("Sportcarrr");
+        }
+
     }
     public class Race
     {
         public void Begin()
         {
-            SportCar sportCar = new SportCar();
-            Truck truck = new Truck();
+            Car sportCar = new SportCar();
+            Car truck = new Truck();
 
             List<Car> cars = new List<Car>
             {
@@ -74,5 +79,19 @@ namespace myapp.models
                 car.Boost();
             }
         }
+
+    public void Casting()
+    {
+        Car sportCar = new SportCar();
+        Car truck = new Truck();
+
+        SportCar castedSportCar = sportCar as SportCar;
+        if (castedSportCar != null)
+        {
+            castedSportCar.DisplayInfor();
+        }
+    }
+
+
     }
 }
